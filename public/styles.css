@@ -1,0 +1,70 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.side-menu
+{
+    width:19vw;
+    height: 100vh;
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.side-menu ul{
+    height: 30vh;
+    margin-top: 50px;
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* .side-menu li:hover
+{
+    background-color: red;
+    color: blue;
+} */
+.kk
+{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+}
+.c1
+{
+    display: flex;
+    margin-top: 6rem;
+     justify-content: space-around; 
+     flex-wrap: wrap;
+   
+}
+.contain
+{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    position: absolute;
+    right: 0;
+}
+.card
+{
+    width: 15rem;
+
+}
+.act
+{
+    text-align: center;
+    background-color: aqua;
+}
+.c2
+{
+    margin-top: 4rem;
+    margin-left: 30px;
+    margin-right: 30px;
+}
